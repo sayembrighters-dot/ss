@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Brighters</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="mobile-improvements.css">
+    <link rel="stylesheet" href="team-tabs.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo nav-logo">
+                <img src="logo.png" alt="Brighters">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="impact.html">Impact</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li class="mobile-only"><a href="#" class="mobile-donate-btn">Donate</a></li>
+            </ul>
+            <button class="donate-btn">Donate</button>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-subtitle">About Brighters</span>
+                <h1>Empowering Youth for Climate Justice</h1>
+                <p>Brighters is dedicated to empowering the youth & upcoming generation & advocating for justice to build a sustainable future! Founded in 2016, we are a youth-led nonprofit organization based in Dhaka, Bangladesh.</p>
+                <button class="cta-button">
+                    <i class="fas fa-arrow-right"></i>
+                    Our Mission
+                </button>
+            </div>
+        </div>
+        <div class="hero-bg"></div>
+    </section>
+
+    <section class="about-content">
+        <div class="container">
+            <div class="content-grid">
+                <div class="sidebar">
+                    <div class="company-info">
+                        <div class="logo-section">
+                            <div class="company-logo">
+                                <i class="fas fa-globe-americas"></i>
+                            </div>
+                            <h3>Brighters (Since 2016)</h3>
+                        </div>
+                        
+                        <div class="stats-section">
+                            <div class="stat-item">
+                                <i class="fas fa-users"></i>
+                                <span class="counter" data-target="20000">0</span>
+                                <small>Volunteers</small>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-medal"></i>
+                                <span class="counter" data-target="600">0</span>
+                                <small>Climate Ambassadors</small>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span class="counter" data-target="51">0</span>
+                                <small>Districts Active</small>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-thumbs-up"></i>
+                                <span class="counter" data-target="31260">0</span>
+                                <small>Facebook Likes</small>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="main-content">
+                    <div class="content-header">
+                        <div class="badge-group">
+                            <span class="badge green active" onclick="showContent('mission')">Youth-Led Since 2016</span>
+                            <span class="badge" onclick="showContent('climate-justice')">Climate Justice</span>
+                            <span class="badge" onclick="showContent('people-planet')">For The People & Planet</span>
+                        </div>
+                        
+                        <div id="mission" class="dynamic-content active">
+                            <h2>Our Mission & Vision</h2>
+                            <p><strong>Mission:</strong> "Empowering the youth & next generation to build a sustainable future for the people & planetary well-being." We are a youth-led nonprofit organization founded in 2016, dedicated to climate justice and environmental sustainability.</p>
+                            <p><strong>Focus Areas:</strong> Climate Justice & Just Transition, Climate Education, Youth Mobilization, Environmental Justice & Resilience. We work across 51 districts in Bangladesh with 20,000+ volunteers and 600+ Climate Action Ambassadors.</p>
+                            <p><strong>Partnerships:</strong> We collaborate with ActionAid Bangladesh, UNDP, Global Platform Bangladesh, and Bangladesh Youth COP to amplify our impact and reach.</p>
+                        </div>
+                        
+                        <div id="climate-justice" class="dynamic-content">
+                            <h2>What is Climate Justice?</h2>
+                            <p>Climate Justice is a concept that emphasizes the equitable distribution of the impacts of climate change. The main point is:</p>
+                            <ul>
+                                <li>The countries most responsible for climate change (such as rich countries, which have historically emitted more greenhouse gases) must take the most responsibility.</li>
+                                <li>Those who are least responsible for climate change (such as poor countries, low-income communities, indigenous people, young people and future generations) but are most affected must be given priority to solve them.</li>
+                                <li>It is linked to human rights, equity and social justice – such as the rights to food, water, health and security.</li>
+                            </ul>
+                            <h3>Key Principles:</h3>
+                            <div class="principles-list">
+                                <p><strong>Procedural Justice:</strong> Including everyone (especially vulnerable groups) in decision-making.</p>
+                                <p><strong>Distributive Justice:</strong> Sharing costs and benefits fairly (e.g., providing climate finance to poor countries).</p>
+                                <p><strong>Historical Responsibility:</strong> Those who have polluted more in the past should pay more.</p>
+                                <p><strong>Just Transition:</strong> Providing fair support for workers and communities as they move from fossil fuels to renewable energy.</p>
+                            </div>
+                        </div>
+                        
+                        <div id="people-planet" class="dynamic-content">
+                            <h2>For the People and Planet</h2>
+                            <blockquote class="mission-quote">
+                                "Climate action is not just about saving the planet – it's about creating a world where people and nature thrive together."
+                            </blockquote>
+                            <p><strong>What does "For the People and Planet" mean?</strong></p>
+                            <p>This slogan emphasizes the need to put the well-being of people and the planet together. It links climate action with sustainable development - balancing human rights, health, the economy and the environment while tackling climate change.</p>
+                            <p>This theme is central to the UNEP (United Nations Environment Programme) strategy, which works towards climate stability, nature protection and a pollution-free planet.</p>
+                            <p><strong>Our Commitment:</strong> We believe that environmental protection and social justice are inseparable. Every climate solution must prioritize both planetary health and human dignity.</p>
+                        </div>
+                        
+                        <div class="action-buttons">
+                            <button class="btn-primary">
+                                <i class="fas fa-phone"></i>
+                                Contact Us
+                            </button>
+                            <button class="btn-secondary">
+                                <i class="fas fa-share"></i>
+                                Share
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="programs-overview">
+                        <h3>Our Key Programs & Initiatives</h3>
+                        <div class="program-cards">
+                            <div class="program-card">
+                                <div class="program-icon">
+                                    <i class="fas fa-balance-scale"></i>
+                                </div>
+                                <h4>Climate Justice & Just Transition</h4>
+                                <p>Advocating for climate justice and supporting communities in transitioning to sustainable practices. Active participation in COP30 and international climate negotiations.</p>
+                            </div>
+                            <div class="program-card">
+                                <div class="program-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <h4>Climate Education</h4>
+                                <p>Developing climate education materials in Bengali, including the "Gohorotno" comic book distributed to 25+ schools across Bangladesh.</p>
+                            </div>
+                            <div class="program-card">
+                                <div class="program-icon">
+                                    <i class="fas fa-users"></i>
+                                </div>
+                                <h4>Youth Mobilization</h4>
+                                <p>Training and empowering young climate activists through fellowships, including our Climate Policy Negotiation Fellowship program.</p>
+                            </div>
+                            <div class="program-card">
+                                <div class="program-icon">
+                                    <i class="fas fa-leaf"></i>
+                                </div>
+                                <h4>Environmental Justice & Resilience</h4>
+                                <p>Building environmental resilience in communities and advocating for environmental justice at grassroots and policy levels.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="join-section">
+                            <h3>How to Join Brighters</h3>
+                            <div class="join-steps">
+                                <div class="join-step">
+                                    <div class="step-number">1</div>
+                                    <h4>Attend Orientation</h4>
+                                    <p>Join our orientation sessions to understand our mission and values</p>
+                                </div>
+                                <div class="join-step">
+                                    <div class="step-number">2</div>
+                                    <h4>Understand the Mission</h4>
+                                    <p>Learn about climate justice and our approach to youth empowerment</p>
+                                </div>
+                                <div class="join-step">
+                                    <div class="step-number">3</div>
+                                    <h4>Start Volunteering</h4>
+                                    <p>Participate in volunteer activities and community events</p>
+                                </div>
+                                <div class="join-step">
+                                    <div class="step-number">4</div>
+                                    <h4>Spread Awareness</h4>
+                                    <p>Use social media and community events to raise climate awareness</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-section">
+                        <div class="category-tabs">
+                            <button class="tab-btn active" onclick="showCategory('leadership')">Leadership</button>
+                            <button class="tab-btn" onclick="showCategory('ambassadors')">Climate Ambassadors</button>
+                            <button class="tab-btn" onclick="showCategory('volunteers')">Volunteers</button>
+                        </div>
+                        
+                        <div id="leadership" class="team-grid active">
+                            <div class="team-member">
+                                <img src="2.png" alt="Saidur Rahman Siam">
+                                <h4>Saidur Rahman Siam</h4>
+                                <p>Founder & CEO</p>
+                            </div>
+                            <div class="team-member">
+                                <img src="3.png" alt="Fariha S Aumi">
+                                <h4>Fariha S Aumi</h4>
+                                <p>Chair & Policy Director</p>
+                            </div>
+                            <div class="team-member">
+                                <img src="4.png" alt="Mohammad Shohanur Amin">
+                                <h4>Mohammad Shohanur Amin</h4>
+                                <p>Operations Director</p>
+                            </div>
+                        </div>
+                        
+                        <div id="ambassadors" class="team-grid">
+                            <div class="team-member">
+                                <img src="5.png" alt="Climate Ambassador">
+                                <h4>Youth Climate Leaders</h4>
+                                <p>600+ Climate Action Ambassadors</p>
+                            </div>
+                            <div class="team-member">
+                                <img src="7.png" alt="Policy Fellow">
+                                <h4>Policy Fellows</h4>
+                                <p>Climate Policy Negotiation Fellows</p>
+                            </div>
+                            <div class="team-member">
+                                <img src="8.png" alt="Community Leader">
+                                <h4>Community Leaders</h4>
+                                <p>Grassroots Climate Advocates</p>
+                            </div>
+                        </div>
+                        
+                        <div id="volunteers" class="team-grid">
+                            <div class="team-member">
+                                <img src="9.png" alt="District Volunteers">
+                                <h4>District Coordinators</h4>
+                                <p>Active in 51 Districts</p>
+                            </div>
+                            <div class="team-member">
+                                <img src="10.png" alt="Youth Volunteers">
+                                <h4>Youth Volunteers</h4>
+                                <p>20,000+ Active Volunteers</p>
+                            </div>
+                            <div class="team-member">
+                                <img src="11.png" alt="Community Volunteers">
+                                <h4>Community Activists</h4>
+                                <p>Grassroots Environmental Champions</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="common.js"></script>
+    <script>
+        // Team category switching
+        function showCategory(categoryId) {
+            // Hide all team grids
+            document.querySelectorAll('.team-grid').forEach(grid => {
+                grid.classList.remove('active');
+            });
+            
+            // Remove active class from all tabs
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            
+            // Show selected grid
+            document.getElementById(categoryId).classList.add('active');
+            
+            // Add active class to clicked tab
+            event.target.classList.add('active');
+        }
+
+        // Dynamic content switching
+        function showContent(contentId) {
+            // Hide all content
+            document.querySelectorAll('.dynamic-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            // Remove active class from all badges
+            document.querySelectorAll('.badge').forEach(badge => {
+                badge.classList.remove('active');
+            });
+            
+            // Show selected content
+            document.getElementById(contentId).classList.add('active');
+            
+            // Add active class to clicked badge
+            event.target.classList.add('active');
+        }
+
+        // Trigger counter animations on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Animate all counters on the page
+            const counters = document.querySelectorAll('.counter');
+            counters.forEach(counter => {
+                const target = parseInt(counter.getAttribute('data-target'));
+                const duration = 2000;
+                const increment = target / (duration / 16);
+                let current = 0;
+                
+                const timer = setInterval(() => {
+                    current += increment;
+                    if (current >= target) {
+                        counter.textContent = target.toLocaleString();
+                        clearInterval(timer);
+                    } else {
+                        counter.textContent = Math.floor(current).toLocaleString();
+                    }
+                }, 16);
+            });
+        });
+    </script>
+</body>
+</html>
